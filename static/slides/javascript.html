@@ -645,7 +645,7 @@
                   }
 
                   uneMethode () {
-                     return 42;
+                    return 42;
                   }
 
                   uneMethodeDuParent() { super.bien(); }
@@ -710,7 +710,7 @@
                   return new Promise(function (resolve, reject) {
                       setTimeout(() => {
                           if (Math.random() > 0.5){
-                             reject(new Error('L\'aléatoire ne vous aime pas !'));
+                            reject(new Error('L\'aléatoire ne vous aime pas !'));
                           }
                           resolve(42);
                       }, 500);
@@ -750,8 +750,8 @@
 
               let rang = 'premier';
               console.log(`"J'aime bien la personne au ${rang} rang"
-               ... car elle est assise
-               et qu'elle me laisse passer des lignes`);
+              ... car elle est assise
+              et qu'elle me laisse passer des lignes`);
               // "J'aime bien la personne au premier rang"
               //    ... car elle est assise
               //    et qu'elle me laisse passer des lignes
@@ -762,7 +762,7 @@
               ## Tag Functions
 
               ```javascript
-              function greet(arr, child) {
+              function component(arr, child) {
                 return {
                   component: arr[0].replace(' > '), // div
                   child,

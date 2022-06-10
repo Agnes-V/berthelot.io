@@ -11,4 +11,14 @@ export default [
       The first part of my guide will guide you through this!
     `,
   },
+  {
+    name: 'How to Kiss',
+    slug: 'react-test-refactoring-snapshot',
+    content: reactRefactoring,
+    date: new Date('2022-04-'),
+    description: `
+      You want to refactor a big React codebase but you're not sure you won't break anything?
+      The first part of my guide will guide you through this!
+    `,
+  },
 ].map((s) => ({ ...s, type: 'article' }))
